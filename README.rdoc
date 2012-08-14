@@ -1,0 +1,14 @@
+= puppet-java Recipe
+
+Version: 1.0
+Author: Arno Broekhof <arnobroekhof@gmail.com>
+
+== Usage
+
+class { "java":
+	jdk_version => '6u33',
+	jdk_package_location => '/path/to/java/jdk/bin.tar.gz',
+}
+
+== !!! NOTICE !!!
+only 64bit and Ubuntu / Debian / Mint are supported with this version
